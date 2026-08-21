@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: If you reference this candidate surface, cite it as below.
+title: Lineage Admission Control for Multi-Agent Review
+authors:
+  - name: Meta-Writing Ecology
+date-released: '2026-08-21'
+repository-code: https://github.com/metawritingecology/lineage-admission-control
+license: CC-BY-SA-4.0
