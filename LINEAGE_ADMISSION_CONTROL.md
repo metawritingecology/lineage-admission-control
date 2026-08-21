@@ -44,6 +44,19 @@ scope for the "unpublished" claim: English-language web, arXiv, and
 framework documentation, surveyed 2026-08-21 at medium depth with
 recorded queries; a claim of absence bounded by that scope.
 
+**What this is relative to behavioral measurement — stated precisely.**
+Behavioral-entanglement auditing (arXiv 2604.07650) estimates OBSERVED
+dependence between models without needing their ancestry, and needs no
+cooperation from providers. This document is not a competing estimator
+and does not claim ancestry predicts dependence better than measurement.
+It is a FAIL-SAFE CERTIFICATION POLICY for the complementary situation:
+when evidence of independence is insufficient — ancestry unresolved,
+behavior unmeasured, or both — the panel is not certified as independent.
+An estimator answers "how dependent are these reviewers?"; this policy
+answers "what may be certified when that question cannot yet be
+answered?". The two compose: a behavioral estimate, where available, is
+exactly the kind of evidence that can upgrade a pair from UNDEMONSTRATED.
+
 ## The mechanism
 
 **Layer 0 — identity vs independence, kept separate.** A lineage IDENTITY
@@ -123,8 +136,21 @@ rules); not an enforced system — see maturity.
 ## Relation to prior art (acknowledged, by name)
 
 Empirical: Knight & Leveson 1986 (software N-versions, analogic); arXiv
-2506.07962; 2605.29800. Measurement/reweighting: arXiv 2604.07650.
-Margin-keyed normative turn: arXiv 2608.06940. Transferred shapes:
+2506.07962; Correlated Errors in LLMs (Kim et al., ICML 2025 — 350+
+models; correlation tracks shared architecture and provider, AND remains
+high among capable models across different architectures, which is
+precisely why rule 3 treats the lineage-distinct count as only an upper
+bound); Nine Judges, Two Effective Votes (arXiv 2605.29800).
+Deliberate family diversity in panel design: PoLL (arXiv 2404.18796,
+2024 — disjoint model families as jury composition; a design preference,
+not an admission gate). Measurement/reweighting: arXiv 2604.07650.
+Margin-keyed normative turn: arXiv 2608.06940. Claim-level graded
+provenance with serve/review/quarantine routing in multi-agent systems:
+the Isnad-Rijal framework (arXiv 2607.24117) — its serve/review/
+quarantine routing uses a chain(narrator)-grade × content-assessment
+decision matrix, with transmitter reliability graded per domain; this
+document's quarantine gates REVIEWER ANCESTRY RESOLUTION. Shared
+vocabulary, different admission key; acknowledged, not claimed. Transferred shapes:
 SLSA-class provenance verification (enforcement is verifier policy, not
 automatic — noted); TUF/in-toto threshold authorization (keys, not
 ancestry); conservative undemonstrated-independence treatment in
@@ -141,6 +167,17 @@ self-reported lineage without attestation; prose accounting. To become
 enforced: a machine-checkable ledger consumed at dispatch;
 attestation-backed identity claims; a dispatcher that refuses. None ships
 here, and nothing in this document should be read as claiming otherwise.
+
+## Possible relations (not asserted)
+
+This surface emerged from one operating practice in parallel with other
+candidate surfaces: lineage-aware-agent-governance, disclosure-order-review, falsifiability-first-protocol, claim-strength-profile, scoped-rejection. Common origin is the only relation asserted.
+Composition, dependency, or a unified framework among any of them is
+possible and deliberately NOT asserted; no confirmed relation exists, and
+none should be inferred from co-ownership, shared vocabulary, or
+structural resemblance. Read under a weakest-compatible-relation default:
+navigation adjacency. If a composition is ever established it will be
+stated explicitly; absence of that statement means it has not been.
 
 ## Public / internal boundary
 
